@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical School</title>
+    <!-- CSS only -->
+    <style>
+        section{
+            padding: 60px 0;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-success pt-4 pb-4 sticky-top">
+        <div class="container-xxl">
+            <span class="text-center">
+                <a href="#intro" class="navbar-brand text-light fs-3 fw-bold"><i class="bi bi-hospital text-light me-1"></i>Medical School</a>
+            </span>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center align-center" id="navbarText">
+                <ul class="navbar-nav me-5">
+                    <li class="navbar-item">
+                        <a class="nav-link text-light me-4" href="#intro">About</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-light me-4" href="#mission">Mission</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-light me-4" href="#professor">Professor</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-light me-4" href="#campus">Campus</a>
+                    </li>     
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end align-center" id="navbarText">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a class="nav-link text-light me-6" href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-light me-6" href="#"><i class="bi bi-instagram"></i></a>
+                    </li>
+                       
+                    <li class="navbar-item">
+                        <a class="nav-link text-light me-6" href="#"><i class="bi bi-twitter"></i></a>
+                    </li>
+                       
+                    <li class="navbar-item">
+                        <a class="nav-link text-light me-6 " href="#"><i class="bi bi-github"></i></a>
+                    </li>
+                </ul>
+                <form class="d-lg-flex ms-5 d-md-none" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-- Main / Topic -->
+
+    <section id="intro">
+        <div class="container-xxl">
+            <div class="row g4 justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="text-success display-2">Welcome to <br> <span class="text-danger">Medical School</span> </div>
+                        <div class="text-muted display-6">1st ranking university</div>
+                    </h1>
+                    <p class="text-muted mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Visit Us
+                      </button>
+                      
+                </div>
+
+                <div class="col-md-5 d-none d-md-block">
+                    <img src="assets/doctors.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Visit Us</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Please contact us or register in the form below
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success" id="#join">Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Mission & Vision -->
+
+    <section id="mission">
+        <div class="container-xxl">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <div class="text-center mx-3">
+                        <h1 class="text-danger display-1"><i class="bi bi-bullseye"></i></h1>
+                        <h2 class="text-success">Mission</h2>
+                        <p class="text-muted lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae amet enim laborum nostrum veritatis nulla mollitia nisi expedita, ex adipisci excepturi fuga odio numquam illum iure, velit ipsum totam.</p>
+                        <p class="text-muted lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae amet enim laborum nostrum veritatis nulla mollitia nisi expedita, ex adipisci excepturi fuga odio numquam illum iure, velit ipsum totam.</p>
+                    
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="text-center mx-3">
+                        <h1 class="text-danger display-1"><i class="bi bi-compass-fill"></i></h1>
+                        <h2 class="text-success">Vision</h2>
+                        <p class="text-muted lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae amet enim laborum nostrum veritatis nulla mollitia nisi expedita, ex adipisci excepturi fuga odio numquam illum iure, velit ipsum totam.</p>
+                        <p class="text-muted lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae amet enim laborum nostrum veritatis nulla mollitia nisi expedita, ex adipisci excepturi fuga odio numquam illum iure, velit ipsum totam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Proffessor -->
+
+    <section id="professor">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="text-center">
+                    <h2 class="text-success">Professors Team</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum repellendus sit non dolorum totam.</p>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    
+                      <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Dr. John</h5>
+                          <h6 class="card-subtitle text-muted">Director</h6>
+                          <p class="card-text text-muted">Medical School</p>
+        
+                        </div>
+                      </div>
+                      <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Dr. Abigail</h5>
+                            <h6 class="card-subtitle text-muted">Vice Director</h6>
+                            <p class="card-text text-muted">Medical Academic School</p>
+                        </div>
+                      </div>
+                      <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Dr. William</h5>
+                          <h6 class="card-subtitle text-muted">Professor</h6>
+                          <p class="card-text text-muted">Medical School</p>
+        
+                        </div>
+                      </div>
+                      <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/4.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Dr. Marston</h5>
+                            <h6 class="card-subtitle text-muted">Researcher</h6>
+                            <p class="card-text text-muted">MA Team</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus -->
+
+    <section id="campus">
+        <div class="container-lg">
+            <div class="row justify-contain-center align-items-center">
+                <div class="text-center">
+                    <h2 class="text-success">Campus</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quibusdam in facilis, fugiat asperiores temporibus!</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center my-3">
+                <div class="col-md-5 text-center text-md-start">
+                    <div class="card text-bg-light">
+                        <img src="assets/campus/2.png" class="card-img" alt="...">    
+                    </div>
+                    <div class="text-center my-3">
+                        <h3 class="text-muted">London Medical School</h3>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center text-md-start">
+                    <div class="card text-bg-light">
+                        <img src="assets/campus/3.png" class="card-img" alt="...">    
+                    </div>
+                    <div class="text-center my-3">
+                        <h3 class="text-muted">Newyork Medical School</h3>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Facility -->
+    
+    <section id="facility">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="text-center">
+                    <h2 class="text-success">Facility</h2>
+                    <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos.</p>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="card m-3" style="width: 18rem;">
+                      <img src="assets/facility/1.png" class="card-img-top mt-2" alt="...">
+                      <div class="card-body text-center">
+                          <h5 class="card-title text-center">Football Field</h5>
+                          <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                      </div>
+                    </div>
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/facility/2.png" class="card-img-top mt-2" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Canteen</h5>
+                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                      </div>
+                      <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/facility/3.png" class="card-img-top mt-2" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Classroom</h5>
+                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                      </div>
+
+                      <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/facility/4.png" class="card-img-top mt-2" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Laboratory</h5>
+                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                      </div>
+              </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Review -->
+
+    <section id="review">
+        <div class="container-xxl">
+            <div class="row justify-content-center align-items-center">
+                <div class="text-center">
+                    <h2 class="text-success">Review</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center">
+                <div class="card mb-3 m-4" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="assets/review/1.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Molly</h5>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <p class="card-text">Great university, good professors, big facilities</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card mb-3 m-4" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="assets/review/2.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">James</h5>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <p class="card-text">Great university, good professors, big facilities</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card mb-3 m-4" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="assets/review/3.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Marry Janes</h5>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-half text-warning"></i>
+                          <p class="card-text">Great university, good professors, big facilities</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card mb-3 m-4" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="assets/review/4.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Joey</h5>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-fill text-warning"></i>
+                          <i class="bi bi-star-half text-warning"></i>
+                          <p class="card-text">Great university, good professors, big facilities</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div> 
+          
+        </div>
+    </section>
+
+    <!-- Registration form -->
+
+    <section id="join">
+        <div class="container-lg">
+            <div class="text-center m-3">
+                <h2 class="text-success">Registration for entrance exam</h2>
+                <p class="text-muted">Please fill your information below</p>
+            </div>
+            <dc:\Users\Phat Panhareach\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\electron-sandbox\workbench\workbench.htmliv class="row justify-conten-center align-items-center">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="fname"><i class="bi bi-person-circle"></i></span>
+                    <input type="text" class="form-control" placeholder="First Name"  aria-label="fname" aria-describedby="fname">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="lname"><i class="bi bi-person-circle"></i></span>
+                    <input type="text" class="form-control" placeholder="Last Name"  aria-label="lname" aria-describedby="lname">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="birth"><i class="bi bi-calendar-date"></i></span>
+                    <input type="date" class="form-control" aria-label="birth" aria-describedby="birth">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="email"><i class="bi bi-envelope-fill"></i></span>
+                    <input type="email" class="form-control" placeholder="Email" arial-label="email" aria-describedby="email">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="tel"><i class="bi bi-telephone-fill"></i></span>
+                    <input type="tel" class="form-control" placeholder="Phone Number" arial-label="tel" aria-describedby="tel">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text" style="height: 100px;">Commitment</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="" class="btn btn-success btn-lg">Submit</a>
+            </div>
+            <div class="text-center m-3">
+                <p class="text-muted fs-5">We will contact you as soon as possible.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- partners -->
+
+    <section id="partners">
+        <div class="container-xxl">
+            <div class="row justify-content-center align-items-center">
+                <div class="text-center">
+                    <h2 class="text-success">
+                        Our Partners
+                    </h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorem?</p>
+                </div>
+                <div class="text-center">
+                    <img src="assets/logo/1.png" class="rounded float-start w-25" alt="...">
+                    <img src="assets/logo/2.png" class="rounded w-25" alt="...">
+                    <img src="assets/logo/3.png" class="rounded float-end w-25" alt="...">
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    
+    <section id="footer" class="bg-success mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2 class="text-light">“The earlier you start working on something, the earlier you will see results.”</h2>
+                <h6 class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
+            </div>
+            <div class="text-center">
+                <a href="#"><i class="bi bi-facebook text-light m-1 fs-5 "></i></a>
+                <a href="#"><i class="bi bi-instagram text-light m-1 fs-5"></i></a>
+                <a href="#"><i class="bi bi-twitter text-light m-1 fs-5"></i></a>
+                <a href="#"><i class="bi bi-github text-light m-1 fs-5"></i></a>
+            </div>
+            <div class="text-center mt-5">
+                <h6 class="text-light"><i class="bi bi-c-circle text-light me-1"></i>Copyright 2022 by Phat Panhareach</h6>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
